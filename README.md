@@ -5,7 +5,7 @@ An AI-powered platform that automates the entire A/B testing workflow using Goog
 ## 🚀 Features
 
 ### 🤖 **AI-Powered Intelligence**
-- **Gemini 2.0 Flash** generates data-driven hypotheses
+- **Gemini 3 pro** generates data-driven hypotheses
 - Automated experiment design with statistical rigor
 - Intelligent result analysis and interpretation
 - Natural language reports and insights
@@ -13,7 +13,7 @@ An AI-powered platform that automates the entire A/B testing workflow using Goog
 ### 🔄 **Complete Workflow Automation**
 1. **Hypothesis Generation** - AI creates testable hypotheses with expected impact
 2. **Experiment Design** - Calculates sample size, duration, and variants
-3. **[span_0](start_span)Simulation** - Generates realistic synthetic user data to test your design[span_0](end_span)
+3. **Simulation** - Generates realistic synthetic user data to test your design
 4. **Analysis** - Performs statistical tests (t-tests, Bayesian) and calculates business impact
 5. **Reporting** - Generates professional markdown reports for stakeholders
 
@@ -33,8 +33,8 @@ An AI-powered platform that automates the entire A/B testing workflow using Goog
 
 1. **Clone repository**
    ```bash
-   git clone [https://github.com/yourusername/ab-testing-platform.git](https://github.com/yourusername/ab-testing-platform.git)
-   cd ab-testing-platform```
+   git clone [https://github.com/daap143/AB_alchemy](https://github.com/daap143/AB_alchemy)
+   cd AB_alchemy```
 	
  * Install dependencies
    ```pip install -r requirements.txt```
@@ -45,17 +45,18 @@ An AI-powered platform that automates the entire A/B testing workflow using Goog
      export GEMINI_API_KEY="your_api_key_here"
 
 🏃‍♂️ Running the Application
+
 Option 1: Local Run (Standard)
 streamlit run app.py
 
 Access the app at http://localhost:8501.
+
 Option 2: Running on Colab/Cloud (with ngrok)
 If you are running this in a cloud environment (like Google Colab) where you cannot access localhost directly, use ngrok to create a public tunnel.
  * Install pyngrok:
    ```pip install pyngrok```
 
- * Run with tunnel:
-   # You will need a free ngrok auth token from ngrok.com
+ * Run with tunnel:You will need a free ngrok auth token from ngrok.com
 ```streamlit run app.py & npx localtunnel --port 8501```
 
    Note: If using localtunnel, you may need to enter the tunnel IP password found at https://loca.lt/mytunnelpassword.
