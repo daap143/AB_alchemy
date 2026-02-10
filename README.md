@@ -68,6 +68,6 @@ If you are running this in a cloud environment (like Google Colab) where you can
  * visualization.py: Plotly-based charting and dashboarding
  * api_integrations.py: Connectors for GA4, Mixpanel, etc.
 
-##.🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
