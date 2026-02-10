@@ -61,16 +61,13 @@ If you are running this in a cloud environment (like Google Colab) where you can
 
    Note: If using localtunnel, you may need to enter the tunnel IP password found at https://loca.lt/mytunnelpassword.
 
-#📂 Project Structure
+##📂 Project Structure
  * app.py: Main Streamlit application entry point
  * gemini_agent.py: Core logic for interacting with Google Gemini API
  * data_simulator.py: Generates realistic synthetic A/B test data
  * visualization.py: Plotly-based charting and dashboarding
- * api_integrations.py: Connectors for GA4, Mixpanel, etc. (Mock/Template)
-⚠️ Troubleshooting
- * API Key Errors: Ensure you are using a valid key from Google AI Studio.
- * "Object of type Timestamp is not JSON serializable": This is fixed in the latest version by handling date serialization in gemini_agent.py.
- * JSONDecodeError: The agent now includes a robust JSON cleaner to handle Markdown formatting from the LLM.
-🤝 Contributing
+ * api_integrations.py: Connectors for GA4, Mixpanel, etc.
+
+##🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
