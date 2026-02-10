@@ -33,8 +33,8 @@ An AI-powered platform that automates the entire A/B testing workflow using Goog
 
 1. **Clone repository**
    ```bash
-   git clone [https://github.com/daap143/AB_alchemy](https://github.com/daap143/AB_alchemy)
-   cd AB_alchemy```
+   git clone https://github.com/daap143/AB_alchemy
+   cd AB_alchemy
 	
  * Install dependencies
    ```pip install -r requirements.txt```
@@ -60,7 +60,8 @@ If you are running this in a cloud environment (like Google Colab) where you can
 ```streamlit run app.py & npx localtunnel --port 8501```
 
    Note: If using localtunnel, you may need to enter the tunnel IP password found at https://loca.lt/mytunnelpassword.
-📂 Project Structure
+
+#📂 Project Structure
  * app.py: Main Streamlit application entry point
  * gemini_agent.py: Core logic for interacting with Google Gemini API
  * data_simulator.py: Generates realistic synthetic A/B test data
